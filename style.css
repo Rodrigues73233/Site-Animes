@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #1b1b1c;
+}
+
+.header-inicio {
+  background-color: #000;
+  padding: 10px;
+}
+
+.header-inicio a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding-right: 20px;
+
+}
+
+.logo {
+  transition: filter .3s;
+}
+
+.logo:hover {
+  color: #d33;
+  filter: brightness(1.1);
+}
+
+.links-topo {
+  transition: filter .3s;
+}
+
+.links-topo:hover {
+  color: #d33;
+  filter: brightness(0.8);
+}
+
+.logo {
+  text-align: start;
+}
+
+nav {
+  text-align: end;
+}
+
+main h2 {
+  border-left: 3px solid #d33;
+  padding-left: 8px;
+}
+
+img {
+  transition: filter .3s;
+}
+
+img:hover {
+  cursor: pointer;
+  filter: brightness(0.6);
+}
+
+main {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #0f0f0f;
+}
+
+.ultimos-episodios {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.itens-ultimos {
+  padding: 10px;
+}
+
+.animes-recentes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.itens-recentes {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+footer {
+  display: block;
+  background-color: #000;
+  color: #fff;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}

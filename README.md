@@ -1,3 +1,3 @@
 # Site-Animes
 
-Link para o site:
+Link para acessar esse projeto:

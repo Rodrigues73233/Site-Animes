@@ -22,7 +22,10 @@ body {
   text-decoration: none;
   color: #fff;
   padding-right: 20px;
+}
 
+.link-right {
+  margin-left: 15px;
 }
 
 .logo {

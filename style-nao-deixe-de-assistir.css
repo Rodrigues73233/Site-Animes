@@ -21,7 +21,10 @@ body {
   display: inline-block;
   text-decoration: none;
   color: #fff;
+}
 
+.link-left {
+  margin-right: 15px;
 }
 
 .logo {

@@ -11,7 +11,10 @@ body {
 
 .header-inicio {
   background-color: #000;
-  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
 .header-inicio a {

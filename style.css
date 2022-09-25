@@ -99,6 +99,11 @@ main {
   flex-grow: 1;
 }
 
+.itens-recentes img {
+  width: 240px;
+  height: 370px;
+}
+
 footer {
   display: block;
   background-color: #000;
